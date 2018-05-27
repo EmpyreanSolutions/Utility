@@ -8,7 +8,7 @@ public class TextFileReader
 {
 	private Scanner input;
 	private File file;
-	
+
 	public TextFileReader(String fileName)
 	{
 		file = new File(fileName);
@@ -22,17 +22,17 @@ public class TextFileReader
 			e.printStackTrace();
 		}
 	}
-	
+
 	public String readNextLine()
 	{
 		String s = "";
-		while(input.hasNextLine())
+		if(input.hasNextLine())
 		{
 			s = input.nextLine();
 		}
 		return s;
 	}
-	
+
 	public String readNextWord()
 	{
 		String s = "";

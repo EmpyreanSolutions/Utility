@@ -1,2 +1,3 @@
-this is a sentence
-this is also a sentence
+this is an appended sentence using the custom writer.
+a	sentence	with	tabs	
+a sentence with space 

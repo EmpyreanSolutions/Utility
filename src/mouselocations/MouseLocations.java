@@ -6,6 +6,14 @@ import java.awt.Point;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
+/**Class: MouseLocations.java
+ * @author Kenneth Sales
+ * Jun 7, 2018
+ * 
+ * This class - describe what the class does
+ *
+ * Purpose: - describe the purpose of the class
+ */
 public class MouseLocations extends Application {
 
 	@Override
